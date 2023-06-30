@@ -1,5 +1,5 @@
 # ASCII-animation
-ASCII-animation is a convenient command line video-to-ascii converter. It slices the video into frames, converts each into ascii art and saves them into ascii/\<output-path-name\>.
+ASCII-animation is a convenient command line video-to-ascii converter. It slices the video into frames, converts each into ascii art and saves them into `ascii/\<output-path-name\>`.
 Supports background removal, resize, frame rate adjustment.
 
 Command Line Arguments
