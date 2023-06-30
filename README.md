@@ -23,5 +23,5 @@ python3 main.py cat.mp4 cat -rb -w 200 -f 20
 ```
 will create an ASCII animation based on `cat.mp4`, remove the background, resize to width of 200 characters, adjust frame rate to 20 fps, and save to `ascii/cat`.
 
-# References
+## References
 https://levelup.gitconnected.com/python-ascii-art-generator-60ba9eb559d7

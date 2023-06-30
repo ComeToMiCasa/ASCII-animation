@@ -6,6 +6,11 @@ from rembg import remove
 
 
 def video_to_ascii(path_in, path_out, w, f, rem_bg):
+
+    try:
+        os.mkdir(f"./ascii")
+    except Exception as e:
+        pass
     try:
         os.mkdir(f"./ascii/{path_out}")
     except Exception as e:
