@@ -3,7 +3,7 @@ from PIL import Image
 import os
 
 
-def extract_images_from_video(path_in, interval=500):
+def extract_images_from_video(path_in, interval=100):
     # try:
     #     os.mkdir(f"./images/{path_out}")
     # except Exception as e:

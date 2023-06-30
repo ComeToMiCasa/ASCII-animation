@@ -22,7 +22,7 @@ def video_to_ascii(path_in, path_out, w, f, rem_bg):
     cnt = 0
     for image in images:
         generator.generate_ascii(
-            image, f"{path_out}/frame_{cnt}", 100 if w is None else int(w)
+            image, f"{path_out}/frame_{str(cnt).zfill(5)}", 100 if w is None else int(w)
         )
         cnt += 1
 
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("-w", "--width", help="[optional] width to resize image")
     parser.add_argument(
-        "-f", "--freq", help="[optional] no. of frames to capture per second"
+        "-f", "--freq", help="[optional] # of frames to capture per second"
     )
 
     args = parser.parse_args()

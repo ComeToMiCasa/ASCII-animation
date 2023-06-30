@@ -2,8 +2,8 @@ import PIL.Image
 import sys
 import argparse
 
-# ASCII_CHARS = ["@", "#", "$", "%", "?", "*", "+", ";", ":", ",", ".", " "]
-ASCII_CHARS = [" ", ",", ":", ";", "+", "*", "?", "%", "$", "#", "@"]
+ASCII_CHARS = ["@", "#", "$", "%", "?", "*", "+", ";", ":", ".", " "]
+# ASCII_CHARS = [" ", ",", ":", ";", "+", "*", "?", "%", "$", "#", "@"]
 
 
 def resize(image, new_width=100):
