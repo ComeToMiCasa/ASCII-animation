@@ -2,6 +2,8 @@
 ASCII-animation is a convenient command line video-to-ascii converter. It slices the video into frames, converts each into ascii art and saves them into `ascii/\<output-path-name\>`.
 Supports background removal, resize, frame rate adjustment.
 
+![ezgif-2-9203c1ccf4](https://github.com/ComeToMiCasa/ASCII-animation/assets/89723696/11fa7077-4dfd-4f00-9c91-7f6b15ea92c9)
+
 Command Line Arguments
 --
 ### Required Arguments
